@@ -8,15 +8,15 @@ PRODUCT_RELEASE_NAME := core33g
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/core33g.mk)
+$(call inherit-product, $(LOCAL_PATH)/goyavewifi.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := core33g
-PRODUCT_NAME := lineage_core33g
+PRODUCT_DEVICE := goyavewifi
+PRODUCT_NAME := lineage_goyavewifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G360H
+PRODUCT_MODEL := SM-T113NU
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_CHARACTERISTICS := phone
+PRODUCT_CHARACTERISTICS := tablet
 
 # Stock build fingerprint
 BUILD_FINGERPRINT := "samsung/core33gdd/core33g:4.4.4/KTU84P/G360HDDU0APA3:user/release-keys"
