@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Inherit from scx30g common configs
--include device/samsung/scx30g-common/BoardConfigCommon.mk
+-include device/samsung/goyavewifi/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/core33g/BoardConfigVendor.mk
+-include vendor/samsung/goyavewifi/BoardConfigVendor.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sc7730s
@@ -90,7 +90,7 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SM-G360H,SM-G360HU,core33g,core33gdd,core33gdx
+TARGET_OTA_ASSERT_DEVICE := SM-G360H,SM-G360HU,core33g,core33gdd,core33gdx,goyavewifi
 
 # Graphics
 #TARGET_USES_GRALLOC1 := true
