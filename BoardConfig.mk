@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from scx30g common configs
--include device/samsung/goyavewifi/BoardConfigCommon.mk
+-include device/samsung/scx30g-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
 -include vendor/samsung/goyavewifi/BoardConfigVendor.mk
