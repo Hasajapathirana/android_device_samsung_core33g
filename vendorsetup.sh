@@ -19,9 +19,9 @@
 # function: add_lunch_combo generic-eng
 
 # Apply patches first
-sh device/samsung/core33g/patches/apply.sh;
+sh device/samsung/goyaveiwifi/patches/apply.sh;
 
 # Prepare for lunch
 for i in eng user userdebug; do
-add_lunch_combo lineage_core33g-${i};
+add_lunch_combo lineage_goyavewifi-${i};
 done
